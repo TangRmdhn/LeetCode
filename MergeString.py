@@ -1,13 +1,4 @@
 class Solution:
-    def __init__(self, word1, word2):
-        """
-        :type word1: str
-        :type word2: str
-        :rtype: str
-        """
-        self.word1 = str(word1)
-        self.word2 = str(word2)
-
 
     def mergeAlternately(self):
         mergeString = ""
@@ -28,8 +19,4 @@ class Solution:
                     mergeString += self.word1[a-1]
                 break
         return mergeString
-
-coba = Solution("aceg","bdfh")
-
-print(coba.mergeAlternately())
         
